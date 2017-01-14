@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87f4ac"
+    tools:context="com.ejercicios.keka.kekaandroidcv.Fragments.PresentacionFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:id="@+id/tvFrase"
+        android:text="Si dejas salir tus miedos, tendrás más espacio para vivir tus sueños"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marilyn Monroe"
+        android:layout_marginTop="55dp"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:id="@+id/tvAutor"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

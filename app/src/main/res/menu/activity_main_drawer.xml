@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/presentacion"
+            android:title="Presentación" />
+
+        <item
+            android:id="@+id/experiencia"
+            android:title="Experiencia" />
+
+        <item
+            android:id="@+id/formacion"
+            android:title="Formación" />
+
+        <item
+            android:id="@+id/complementaria"
+            android:title="Complementaria" />
+
+        <item
+            android:id="@+id/aptitudes"
+            android:title="Aptitudes y conocimientos" />
+
+        <item
+            android:id="@+id/intereses"
+            android:title="Intereses" />
+    </group>
+
+    <group android:checkableBehavior="all">
+        <item android:title="Datos"/>
+    </group>
+
+    <item android:title="Salir">
+
+    </item>
+
+</menu>
