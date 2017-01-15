@@ -2,33 +2,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#87f4ac"
     tools:context="com.ejercicios.keka.kekaandroidcv.Fragments.PresentacionFragment">
 
 
     <TextView
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPresentacion"
+        android:textSize="18sp"
+        android:text="Nunca se sabe por dónde te va a llevar la vida, cuando piensas que no hay nada que te emocione o no sabes qué hacer de repente, como de la nada, te encuentras con un reto que al principio te pareció que te quedaba grande que no te ves haciendo carrera de ello y semanas después,  tienes la firme certeza de que todo por lo que has pasado te ha llevado a darte cuenta que lo que más deseas en el mundo es crear y desarrollar.
+Y aquí estoy, después de años de incertidumbre y de no saber qué hacer con mi vida, estoy encauzando mis pasos hacia el desarrollo de apps móviles y estaré encantada de escuchar y recibir todos los consejos que queráis darme."/>
+
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="410dp"
         android:id="@+id/tvFrase"
-        android:text="Si dejas salir tus miedos, tendrás más espacio para vivir tus sueños"
-        android:textStyle="bold"
+        android:text="'Si dejas salir tus miedos, tendrás más espacio para vivir tus sueños'"
         android:textSize="20sp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_below="@+id/tvPresentacion"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="34dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Marilyn Monroe"
-        android:layout_marginTop="55dp"
-        android:textStyle="italic"
-        android:textSize="16sp"
+        android:textSize="18sp"
         android:id="@+id/tvAutor"
-        android:layout_marginRight="13dp"
-        android:layout_marginEnd="13dp"
-        android:layout_alignParentTop="true"
+        android:layout_alignTop="@+id/tvFrase"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="59dp" />
 
 </RelativeLayout>
