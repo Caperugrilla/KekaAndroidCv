@@ -2,11 +2,8 @@ package com.ejercicios.keka.kekaandroidcv;
 
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -53,6 +50,8 @@ InteresesFragment.OnFragmentInteractionListener{
         PresentacionFragment presFrag = PresentacionFragment.newInstance();
         fm.beginTransaction().replace(R.id.content_frame, presFrag).addToBackStack(null).commit();
         presentacion=presFrag;
+
+
     }
 
     @Override
@@ -135,6 +134,8 @@ InteresesFragment.OnFragmentInteractionListener{
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
 
     @Override
     public void onFragmentInteraction(Uri uri) {
